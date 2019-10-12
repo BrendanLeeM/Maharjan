@@ -1,0 +1,10 @@
+Brendan Niroula - 10/11/19
+
+READ ME: 
+My program can be compiled by calling "make" (without quotes). 
+The executable will be myShell, can be ran by typing "./myShell" (without quotes). 
+Make clean can be called to clean up .o files. 
+
+Other things to note: 
+There is no time in the files in linux for us to exec, so I display time using "date +%T"
+There is no help in the files for us to exec, so I simply call "man man" which displays a users manual. 
