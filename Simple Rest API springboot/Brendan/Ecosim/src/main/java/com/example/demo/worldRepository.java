@@ -1,0 +1,23 @@
+package com.example.demo;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+/**
+ * Springboot repository class for worlds table
+ * @author Brendan
+ *
+ */
+@Repository
+public interface worldRepository extends JpaRepository<Worlds, String> {
+
+	Worlds save(Worlds world);
+
+	void delete(Worlds world);
+
+	Worlds findByID(int id);
+
+	Worlds findBywName(String wname);
+	
+}
