@@ -1,1 +1,0 @@
-To run program, launch node.js and type (node Task1), follow the prompts to do calculations.
